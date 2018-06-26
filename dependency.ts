@@ -7,6 +7,6 @@ export async function find(collection: Array<any>, filter) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve(collection.filter(filter));
-    }, 4000);
+    }, 100);
   });
 }
